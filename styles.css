@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+
+.principal{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:  20px;
+    background-color: #1C1C1C;
+    background-image: url(./img/development-4536630_640.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 700px;
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a li:hover{
+    color: #FF1493;
+    transition: 0.5s;
+}
+
+.portfolio{
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.portfolio span{
+    color: #FF1493;
+}
+
+.meu-nome{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+
+.meu-nome h2{
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.meu-nome h2 span{
+    color: #FF1493;
+  
+}
+
+.meu-nome p{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+section{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section img{
+    border: 3px solid #FF1493;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+section h2{
+    color: #ffffff;
+    font-size: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section p{
+    color: #ffffff;
+    margin-bottom: 60px;
+    font-size: 25px;
+}
+
+section button{
+    margin-bottom: 60px;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    background: #FF1493;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+section button:hover{
+    background-color: black;
+    border: 2px solid #FF1493;
+    transition: 0.5s;
+}
